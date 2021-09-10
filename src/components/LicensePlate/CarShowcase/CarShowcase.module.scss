@@ -1,0 +1,28 @@
+.ImagesContainer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+  max-width: 100%;
+}
+
+.Container {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.Image {
+  object-fit: cover;
+  max-height: 30rem;
+  max-width: 100%;
+}
+
+.Arrow {
+  font-size: 15rem;
+  fill: black;
+  cursor: pointer;
+}
