@@ -13,6 +13,7 @@
 ---
 
 <h2>Setup</h2>
+
 Clone this repo and run `npm install` to install the dependencies.
 
 ---
