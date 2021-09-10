@@ -1,7 +1,7 @@
 import Modal from "../Modal/Modal";
 import styles from "./ErrorModal.module.scss";
 import CarCrash from "./CarCrash.png";
-const ErrorModal = ({ onClose, onRetry, description, title }) => {
+const ErrorModal = ({ onClose, description, title }) => {
   return (
     <Modal>
       <button className={styles.CloseButton} onClick={onClose}>
