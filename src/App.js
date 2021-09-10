@@ -1,9 +1,9 @@
-import LicensePlateInput from "./components/LicensePlate/LicensePlateInput/LicensePlateInput";
+import LicensePlate from "./components/LicensePlate/LicensePlate";
 
 function App() {
   return (
     <div>
-      <LicensePlateInput />
+      <LicensePlate />
     </div>
   );
 }
