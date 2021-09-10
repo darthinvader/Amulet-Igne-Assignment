@@ -1,4 +1,7 @@
 <h1>Amulet IGNE Assignment</h1>
+<p> A simple application that allows you to search for a license plate number and get the trade name,Date of first admission and Fuel Description</p>
+
+---
 
 <h2>Technologies</h2>
 
