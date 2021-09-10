@@ -1,5 +1,29 @@
-Input {
-  width: 120px;
-  height: 35px;
+.Input {
+  width: 12rem;
+  height: 3.5rem;
   background-color: #ffcf7f;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+
+.Button {
+  width: 7rem;
+  height: 3.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: blue;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.Container {
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
