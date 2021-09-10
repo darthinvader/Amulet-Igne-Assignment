@@ -1,5 +1,11 @@
+import LicensePlateInput from "./components/LicensePlateInput/LicensePlateInput";
+
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <LicensePlateInput />
+    </div>
+  );
 }
 
 export default App;
