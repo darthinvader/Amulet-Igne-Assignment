@@ -13,19 +13,22 @@ const LicensePlateInput = ({ setData }) => {
     console.log(request.data);
   };
   return (
-    <span className={styles.Container}>
-      <input
-        type="text"
-        value={plateNum}
-        onChange={(ev) => {
-          setPlateNum(ev.target.value);
-        }}
-        className={styles.Input}
-      />
-      <button className={styles.Button} onClick={requestData}>
-        Send
-      </button>
-    </span>
+    <div className={styles.Container}>
+      <h1 className={styles.Header}>Please enter your license plate number</h1>
+      <div className={styles.InputContainer}>
+        <input
+          type="text"
+          value={plateNum}
+          onChange={(ev) => {
+            setPlateNum(ev.target.value);
+          }}
+          className={styles.Input}
+        />
+        <button className={styles.Button} onClick={requestData}>
+          Send
+        </button>
+      </div>
+    </div>
   );
 };
 
