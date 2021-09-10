@@ -4,6 +4,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 5rem;
   max-width: 100%;
+  overflow: hidden;
 }
 
 .Container {
@@ -22,7 +23,7 @@
 }
 
 .Arrow {
-  font-size: 15rem;
+  font-size: 10rem;
   fill: black;
   cursor: pointer;
 }
