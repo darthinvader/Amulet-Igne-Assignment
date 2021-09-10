@@ -4,7 +4,10 @@ const LicensePlateInfo = ({ data }) => {
   if (!data) {
     return <div></div>;
   }
-  const tradeName = `${data?.merk} ${data?.handelsbenaming}`;
+  let tradeName = `${data?.merk} ${data?.handelsbenaming}`;
+  if (tradeName)
+    tradeName =
+      tradeName.charAt(0).toUpperCase() + tradeName.slice(1).toLowerCase();
   const date = data.datum_eerste_toelating;
   const fuelDescription = data?.brandstof[0]?.brandstof_omschrijving;
   return (

@@ -2,3 +2,7 @@
 @use 'resets/link-reset';
 @use 'resets/reset-and-normalize';
 @use 'resets/typography';
+
+body {
+  background-color: #f5f5f5;
+}
