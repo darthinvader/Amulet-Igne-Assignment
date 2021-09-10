@@ -12,9 +12,7 @@ const LicensePlateInput = ({ setData, onError }) => {
       );
 
       setData(request.data);
-      console.log(request.data);
     } catch (err) {
-      console.log(err);
       onError();
     }
   };
