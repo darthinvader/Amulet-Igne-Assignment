@@ -1,7 +1,5 @@
 <h1>Amulet IGNE Assignment</h1>
 
----
-
 <h2>Technologies</h2>
 
 - [React](https://facebook.github.io/react/)
