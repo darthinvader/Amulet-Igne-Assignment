@@ -1,7 +1,6 @@
 import car1 from "./car1.jpg";
 import car2 from "./car2.jpg";
 import car3 from "./car3.jpg";
-import { FcNext, FcPrevious } from "react-icons/fc";
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 import styles from "./CarShowcase.module.scss";
 import { useState } from "react";
